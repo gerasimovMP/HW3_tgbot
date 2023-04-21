@@ -1,0 +1,230 @@
+13:48:46.021 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 14140 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+13:48:46.031 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+13:48:47.751 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 2.206 seconds (process running for 29.202)
+14:16:56.626 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.liga.Homework2DemoBot.Homework2DemoBotApplicationTests]: Homework2DemoBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:16:56.791 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.liga.Homework2DemoBot.Homework2DemoBotApplication for test class ru.liga.Homework2DemoBot.Homework2DemoBotApplicationTests
+14:16:57.355 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/mgerasimov/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/mgerasimov/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+14:16:57.373 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - Starting Homework2DemoBotApplicationTests using Java 19.0.2 with PID 7812 (started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+14:16:57.374 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - No active profile set, falling back to 1 default profile: "default"
+14:16:59.458 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - Started Homework2DemoBotApplicationTests in 2.444 seconds (process running for 4.522)
+14:18:26.244 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 2940 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+14:18:26.246 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+14:18:27.424 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.507 seconds (process running for 2.33)
+14:55:24.092 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 1192 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+14:55:24.095 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+14:55:25.324 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.566 seconds (process running for 2.47)
+15:03:34.936 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 6224 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:03:34.940 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+15:03:36.009 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.373 seconds (process running for 2.137)
+15:11:22.827 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 8912 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:11:22.828 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+15:11:23.854 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.295 seconds (process running for 1.94)
+15:11:32.290 [Homework2DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user Max
+15:15:15.741 [Homework2DemoBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - api.telegram.org:443 failed to respond
+org.apache.http.NoHttpResponseException: api.telegram.org:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+15:20:05.027 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 14776 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:20:05.031 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+15:20:06.180 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.43 seconds (process running for 2.229)
+15:20:55.420 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.liga.Homework2DemoBot.Homework2DemoBotApplicationTests]: Homework2DemoBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:20:55.548 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.liga.Homework2DemoBot.Homework2DemoBotApplication for test class ru.liga.Homework2DemoBot.Homework2DemoBotApplicationTests
+15:20:55.922 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/mgerasimov/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/mgerasimov/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+15:20:55.936 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - Starting Homework2DemoBotApplicationTests using Java 19.0.2 with PID 11696 (started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:20:55.937 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - No active profile set, falling back to 1 default profile: "default"
+15:20:57.374 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - Started Homework2DemoBotApplicationTests in 1.669 seconds (process running for 2.9)
+15:20:57.535 [Homework2DemoBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+15:21:15.576 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 11908 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:21:15.581 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+15:21:16.757 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.504 seconds (process running for 2.264)
+15:55:52.049 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 9508 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:55:52.051 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+15:55:53.461 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.721 seconds (process running for 2.553)
+15:56:01.157 [Homework2DemoBot Telegram Executor] ERROR r.l.H.service.TelegramBot - sendMessage ErrorText parameter can't be empty
+15:56:42.935 [Homework2DemoBot Telegram Executor] ERROR r.l.H.service.TelegramBot - sendMessage ErrorText parameter can't be empty
+15:56:56.804 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 15072 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:56:56.806 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+15:56:57.828 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.26 seconds (process running for 1.925)
+15:57:01.369 [Homework2DemoBot Telegram Executor] ERROR r.l.H.service.TelegramBot - sendMessage ErrorText parameter can't be empty
+15:57:04.462 [Homework2DemoBot Telegram Executor] ERROR r.l.H.service.TelegramBot - sendMessage ErrorText parameter can't be empty
+15:57:14.427 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 10076 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:57:14.429 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+15:57:15.468 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.278 seconds (process running for 2.039)
+15:57:19.917 [Homework2DemoBot Telegram Executor] ERROR r.l.H.service.TelegramBot - sendMessage ErrorText parameter can't be empty
+15:58:56.832 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 13712 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+15:58:56.834 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+15:58:57.857 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.275 seconds (process running for 1.949)
+16:01:01.742 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 10200 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:01:01.744 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:01:02.784 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.301 seconds (process running for 1.923)
+16:02:51.741 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 4832 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:02:51.742 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:02:52.763 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.289 seconds (process running for 2.01)
+16:07:23.905 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 9056 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:07:23.906 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:07:25.148 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.538 seconds (process running for 2.249)
+16:13:36.101 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 4360 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:13:36.103 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:13:37.226 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.383 seconds (process running for 1.982)
+16:14:04.330 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.liga.Homework2DemoBot.Homework2DemoBotApplicationTests]: Homework2DemoBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:14:04.420 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.liga.Homework2DemoBot.Homework2DemoBotApplication for test class ru.liga.Homework2DemoBot.Homework2DemoBotApplicationTests
+16:14:04.718 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/mgerasimov/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/mgerasimov/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+16:14:04.728 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - Starting Homework2DemoBotApplicationTests using Java 19.0.2 with PID 14684 (started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:14:04.728 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:14:06.017 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - Started Homework2DemoBotApplicationTests in 1.47 seconds (process running for 2.423)
+16:14:06.193 [Homework2DemoBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error getting updates: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:93)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:260)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+16:14:19.837 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 2532 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:14:19.839 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:14:20.865 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.278 seconds (process running for 1.921)
+16:16:04.584 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 14308 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:16:04.586 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:16:08.247 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 3.92 seconds (process running for 4.586)
+16:18:54.365 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 14612 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:18:54.367 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:18:55.405 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.332 seconds (process running for 1.979)
+16:20:49.730 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 5868 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:20:49.732 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:20:50.807 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.324 seconds (process running for 1.947)
+16:21:59.379 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 9488 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:21:59.381 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:22:00.463 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.329 seconds (process running for 1.973)
+16:22:02.737 [Homework2DemoBot Telegram Executor] ERROR r.l.H.service.TelegramBot - Error sending message: [400] Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+16:22:07.357 [Homework2DemoBot Telegram Executor] ERROR r.l.H.service.TelegramBot - Error sending message: [400] Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+16:22:21.074 [Homework2DemoBot Telegram Executor] ERROR r.l.H.service.TelegramBot - Error sending message: [400] Bad Request: can't parse inline keyboard button: Text buttons are unallowed in the inline keyboard
+16:22:40.238 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 10064 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:22:40.240 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:22:41.252 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.266 seconds (process running for 1.878)
+16:23:46.039 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 10084 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:23:46.041 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:23:47.107 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.313 seconds (process running for 1.956)
+16:47:29.382 [Homework2DemoBot Telegram Connection] INFO  o.t.t.u.DefaultBotSession - Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:273)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:477)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1465)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1069)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+16:49:37.620 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 4500 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:49:37.622 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:49:38.818 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.473 seconds (process running for 2.191)
+16:52:42.973 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 13036 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:52:42.974 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:52:44.012 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.29 seconds (process running for 1.923)
+16:53:28.059 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 13460 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+16:53:28.061 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+16:53:29.130 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.338 seconds (process running for 2.034)
+17:23:36.498 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 12600 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+17:23:36.500 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+17:23:37.555 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.302 seconds (process running for 1.899)
+17:47:36.531 [Homework2DemoBot Telegram Connection] INFO  o.t.t.u.DefaultBotSession - Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:273)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:483)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:477)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1465)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1069)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+18:12:52.464 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 7856 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+18:12:52.472 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+18:12:55.954 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 4.42 seconds (process running for 6.776)
+18:14:13.254 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 9632 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+18:14:13.263 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+18:14:16.749 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 4.442 seconds (process running for 6.75)
+18:14:17.308 [Homework2DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user Max
+18:14:17.553 [Homework2DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user Max
+18:15:35.761 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 14768 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+18:15:35.772 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+18:15:39.320 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 4.374 seconds (process running for 6.465)
+18:19:07.620 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 12216 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+18:19:07.628 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+18:19:13.052 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 6.355 seconds (process running for 8.465)
