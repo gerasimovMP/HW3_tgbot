@@ -16,7 +16,7 @@ import java.util.List;
 @Component
 public class ButtonsMaker {
 
-    public List<List<InlineKeyboardButton>> createButtonsForQuestionSex() {
+    public List<List<InlineKeyboardButton>> createButtonsForAskGender() {
         List<List<InlineKeyboardButton>> buttons = new ArrayList<>();
         buttons.add(Arrays.asList(
                 InlineKeyboardButton.builder()
@@ -30,7 +30,7 @@ public class ButtonsMaker {
         return buttons;
     }
 
-    public List<List<InlineKeyboardButton>> createButtonsForQuestionTypeSearch() {
+    public List<List<InlineKeyboardButton>> createButtonsForGenderSearch() {
         List<List<InlineKeyboardButton>> buttons = new ArrayList<>();
         buttons.add(Arrays.asList(
                 InlineKeyboardButton.builder()

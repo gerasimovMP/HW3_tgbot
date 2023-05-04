@@ -10,8 +10,6 @@ public enum BotActions {
     PROFILE("profile"),
     FAVORITES("favorites"),
     EDIT("edit"),
-    LIKE("любим"),
-    LIKED("любишь"),
     MENU("Меню");
 
     private String caption;

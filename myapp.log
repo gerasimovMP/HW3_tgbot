@@ -1,61 +1,103 @@
-13:35:43.740 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 19.0.2 with PID 5164 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-13:35:43.747 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-13:35:45.335 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.935 seconds (process running for 3.02)
-16:44:43.434 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 6768 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:44:43.436 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:44:44.786 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.672 seconds (process running for 2.419)
-16:46:04.738 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 10980 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:46:04.741 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:46:06.013 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.618 seconds (process running for 2.385)
-16:49:34.083 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 14776 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:49:34.084 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:49:36.208 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 2.414 seconds (process running for 3.154)
-16:49:38.603 [Homework3DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user 8832058
-16:49:49.654 [Homework3DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user 8832061
-16:50:33.628 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 12964 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:50:33.630 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:50:34.752 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.39 seconds (process running for 1.995)
-16:50:37.134 [Homework3DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user Update(updateId=8832062, message=Message(messageId=30, from=User(id=1195859516, firstName=Max, isBot=false, lastName=Gerasimov, userName=maksim_gerasimov, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null), date=1682085036, chat=Chat(id=1195859516, type=private, title=null, firstName=Max, lastName=Gerasimov, userName=maksim_gerasimov, allMembersAreAdministrators=null, photo=null, description=null, inviteLink=null, pinnedMessage=null, stickerSetName=null, canSetStickerSet=null, permissions=null, slowModeDelay=null, bio=null, linkedChatId=null, location=null, messageAutoDeleteTime=null, allowSavingContent=null, hasPrivateForwards=null), forwardFrom=null, forwardFromChat=null, forwardDate=null, text=/search, entities=[MessageEntity(type=bot_command, offset=0, length=7, url=null, user=null, language=null, text=/search)], captionEntities=null, audio=null, document=null, photo=null, sticker=null, video=null, contact=null, location=null, venue=null, animation=null, pinnedMessage=null, newChatMembers=[], leftChatMember=null, newChatTitle=null, newChatPhoto=null, deleteChatPhoto=null, groupchatCreated=null, replyToMessage=null, voice=null, caption=null, superGroupCreated=null, channelChatCreated=null, migrateToChatId=null, migrateFromChatId=null, editDate=null, game=null, forwardFromMessageId=null, invoice=null, successfulPayment=null, videoNote=null, authorSignature=null, forwardSignature=null, mediaGroupId=null, connectedWebsite=null, passportData=null, forwardSenderName=null, poll=null, replyMarkup=null, dice=null, viaBot=null, senderChat=null, proximityAlertTriggered=null, messageAutoDeleteTimerChanged=null, voiceChatStarted=null, voiceChatEnded=null, voiceChatParticipantsInvited=null, voiceChatScheduled=null, isAutomaticForward=null, canBeForwarded=null), inlineQuery=null, chosenInlineQuery=null, callbackQuery=null, editedMessage=null, channelPost=null, editedChannelPost=null, shippingQuery=null, preCheckoutQuery=null, poll=null, pollAnswer=null, myChatMember=null, chatMember=null, chatJoinRequest=null)
-16:51:26.344 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 16704 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:51:26.346 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:51:27.601 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.523 seconds (process running for 2.175)
-16:51:29.313 [Homework3DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user Message(messageId=33, from=User(id=1195859516, firstName=Max, isBot=false, lastName=Gerasimov, userName=maksim_gerasimov, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null), date=1682085089, chat=Chat(id=1195859516, type=private, title=null, firstName=Max, lastName=Gerasimov, userName=maksim_gerasimov, allMembersAreAdministrators=null, photo=null, description=null, inviteLink=null, pinnedMessage=null, stickerSetName=null, canSetStickerSet=null, permissions=null, slowModeDelay=null, bio=null, linkedChatId=null, location=null, messageAutoDeleteTime=null, allowSavingContent=null, hasPrivateForwards=null), forwardFrom=null, forwardFromChat=null, forwardDate=null, text=/search, entities=[MessageEntity(type=bot_command, offset=0, length=7, url=null, user=null, language=null, text=/search)], captionEntities=null, audio=null, document=null, photo=null, sticker=null, video=null, contact=null, location=null, venue=null, animation=null, pinnedMessage=null, newChatMembers=[], leftChatMember=null, newChatTitle=null, newChatPhoto=null, deleteChatPhoto=null, groupchatCreated=null, replyToMessage=null, voice=null, caption=null, superGroupCreated=null, channelChatCreated=null, migrateToChatId=null, migrateFromChatId=null, editDate=null, game=null, forwardFromMessageId=null, invoice=null, successfulPayment=null, videoNote=null, authorSignature=null, forwardSignature=null, mediaGroupId=null, connectedWebsite=null, passportData=null, forwardSenderName=null, poll=null, replyMarkup=null, dice=null, viaBot=null, senderChat=null, proximityAlertTriggered=null, messageAutoDeleteTimerChanged=null, voiceChatStarted=null, voiceChatEnded=null, voiceChatParticipantsInvited=null, voiceChatScheduled=null, isAutomaticForward=null, canBeForwarded=null)
-16:52:18.259 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 2592 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:52:18.261 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:52:19.431 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.425 seconds (process running for 2.072)
-16:52:22.778 [Homework3DemoBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - Cannot invoke "org.telegram.telegrambots.meta.api.objects.ChatMemberUpdated.toString()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getChatMember()" is null
-java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.ChatMemberUpdated.toString()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getChatMember()" is null
-	at ru.liga.Homework2DemoBot.service.TelegramBot.onUpdateReceived(TelegramBot.java:60)
+10:53:55.622 [Homework3DemoBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+10:53:56.601 [Homework3DemoBot Telegram Connection] ERROR o.t.t.u.DefaultBotSession - Этот хост неизвестен (api.telegram.org)
+java.net.UnknownHostException: Этот хост неизвестен (api.telegram.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:250)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:189)
+13:58:34.173 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 15548 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+13:58:34.177 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+13:58:34.956 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+13:58:34.964 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+13:58:34.964 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:58:34.964 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+13:58:35.066 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:58:35.066 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 838 ms
+13:58:35.589 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+13:58:35.606 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+13:58:36.053 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 2.331 seconds (process running for 3.197)
+13:59:40.564 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ru.liga.Homework2DemoBot.Homework2DemoBotApplicationTests]: Homework2DemoBotApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:59:40.679 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ru.liga.Homework2DemoBot.Homework2DemoBotApplication for test class ru.liga.Homework2DemoBot.Homework2DemoBotApplicationTests
+13:59:41.148 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/mgerasimov/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/mgerasimov/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+13:59:41.172 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - Starting Homework2DemoBotApplicationTests using Java 17.0.2 with PID 17952 (started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+13:59:41.173 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - No active profile set, falling back to 1 default profile: "default"
+13:59:43.467 [main] INFO  r.l.H.Homework2DemoBotApplicationTests - Started Homework2DemoBotApplicationTests in 2.606 seconds (process running for 3.894)
+14:53:30.184 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 1004 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
+14:53:30.188 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
+14:53:31.274 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+14:53:31.283 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+14:53:31.283 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:53:31.284 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+14:53:31.403 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:53:31.404 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1159 ms
+14:53:31.965 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+14:53:31.985 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+14:53:32.489 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 2.808 seconds (process running for 3.965)
+14:53:51.637 [Homework3DemoBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - 404 : "{"timestamp":"2023-05-04T11:53:51.596+00:00","status":404,"error":"Not Found","path":"/api/v1/tinder-server/user1195859516"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 : "{"timestamp":"2023-05-04T11:53:51.596+00:00","status":404,"error":"Not Found","path":"/api/v1/tinder-server/user1195859516"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:864)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:804)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:396)
+	at ru.liga.Homework2DemoBot.service.UserService.getPerson(UserService.java:45)
+	at ru.liga.Homework2DemoBot.service.HandlerMessage.handleSendPhoto(HandlerMessage.java:61)
+	at ru.liga.Homework2DemoBot.service.TelegramBot.handleMessage(TelegramBot.java:75)
+	at ru.liga.Homework2DemoBot.service.TelegramBot.onUpdateReceived(TelegramBot.java:51)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
 	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
-16:52:27.135 [Homework3DemoBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - Cannot invoke "org.telegram.telegrambots.meta.api.objects.ChatMemberUpdated.toString()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getChatMember()" is null
-java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.ChatMemberUpdated.toString()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getChatMember()" is null
-	at ru.liga.Homework2DemoBot.service.TelegramBot.onUpdateReceived(TelegramBot.java:60)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
-	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
-16:52:36.512 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 6672 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:52:36.514 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:52:37.605 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.363 seconds (process running for 2.001)
-16:52:40.410 [Homework3DemoBot Telegram Executor] ERROR o.t.t.u.DefaultBotSession - Cannot invoke "org.telegram.telegrambots.meta.api.objects.ChatMemberUpdated.toString()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getChatMember()" is null
-java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.ChatMemberUpdated.toString()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getChatMember()" is null
-	at ru.liga.Homework2DemoBot.service.TelegramBot.onUpdateReceived(TelegramBot.java:60)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
-	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
-16:53:16.407 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 17040 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:53:16.410 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:53:17.947 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.878 seconds (process running for 2.567)
-16:53:19.467 [Homework3DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user Homework3DemoBot
-16:54:00.486 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 2008 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:54:00.488 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:54:01.527 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.301 seconds (process running for 1.901)
-16:54:06.140 [Homework3DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user Homework3DemoBot
-16:58:07.960 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 1316 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-16:58:07.963 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-16:58:09.782 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 2.141 seconds (process running for 2.806)
-16:58:10.820 [Homework3DemoBot Telegram Executor] INFO  r.l.H.service.TelegramBot - Replied to user homework3demobot
-17:01:27.797 [main] INFO  r.l.H.Homework2DemoBotApplication - Starting Homework2DemoBotApplication using Java 17.0.2 with PID 9344 (C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot\target\classes started by mgerasimov in C:\Users\mgerasimov\IdeaProjects\Homework2DemoBot)
-17:01:27.798 [main] INFO  r.l.H.Homework2DemoBotApplication - No active profile set, falling back to 1 default profile: "default"
-17:01:28.842 [main] INFO  r.l.H.Homework2DemoBotApplication - Started Homework2DemoBotApplication in 1.294 seconds (process running for 1.916)

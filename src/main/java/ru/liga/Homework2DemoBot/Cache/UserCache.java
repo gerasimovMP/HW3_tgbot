@@ -32,12 +32,12 @@ public class UserCache {
         }
     }
 
-    public void setPersonCache(Long userId, UserDto userDto) {
-        User user = getUsersCurrentPerson(userId);
+    public void setUserCache(Long userId, UserDto userDto) {
+        User user = getUsersCurrentUser(userId);
         user.setId(userDto.getId());
         user.setName(userDto.getName());
         user.setDescription(new StringBuilder(userDto.getDescription()));
-        user.setGender(Gender.valueOf(userDto.getGender()));
+        user.setGender(Gender.valueOf(userDto.getGenderType()));
         user.setSearchGender(Gender.valueOf(userDto.getSearchGender()));
         user.setBotState(BotState.PROFILE_DONE);
         user.setPageCounter(1);
@@ -46,7 +46,7 @@ public class UserCache {
     }
 
     public void setNameAndDescription(String str, Long userId, String reg) {
-        User user = getUsersCurrentPerson(userId);
+        User user = getUsersCurrentUser(userId);
         String[] params = str.split(reg);
         for (int i = 0; i < params.length; i++) {
             if (i == 0) {
@@ -64,14 +64,14 @@ public class UserCache {
     }
 
     public String getNameAndDescription(Long userId) {
-        User result = getUsersCurrentPerson(userId);
+        User result = getUsersCurrentUser(userId);
         return result.getName() + "\n" + result.getDescription();
     }
 
 
     public void setNewState(Long userId, BotState botState) {
         for (User user : users) {
-            if (user.getUserId().equals(userId)) {
+            if (user.getUserId()== userId) {
                 user.setBotState(botState);
             }
         }
@@ -80,13 +80,13 @@ public class UserCache {
 
 
     public void setNewGender(Long userId, Gender gender) {
-        User user = getUsersCurrentPerson(userId);
+        User user = getUsersCurrentUser(userId);
         user.setGender(gender);
         log.info("Set to user: " + userId + " gender - " + gender);
     }
 
     public void setTypeSearch(Long userId, Gender gender) {
-        User user = getUsersCurrentPerson(userId);
+        User user = getUsersCurrentUser(userId);
         user.setSearchGender(gender);
         log.info("Set to user: " + userId + " genderSearch - " + gender);
     }
@@ -94,7 +94,7 @@ public class UserCache {
 
     public BotState getUsersCurrentBotState(Long userId) {
         for (User user : users) {
-            if (user.getUserId().equals(userId)) {
+            if (user.getUserId()== userId ) {
                 return user.getBotState();
             }
         }
@@ -102,9 +102,9 @@ public class UserCache {
     }
 
 
-    public User getUsersCurrentPerson(Long userId) {
+    public User getUsersCurrentUser(Long userId) {
         for (User user : users) {
-            if (user.getUserId().equals(userId)) {
+            if (user.getUserId() == userId) {
                 return user;
             }
         }
@@ -114,70 +114,56 @@ public class UserCache {
 
     public boolean containsKey(Long userId) {
         for (User user : users) {
-            if (user.getUserId().equals(userId)) {
+            if (user.getUserId() == userId ) {
                 return true;
             }
         }
         return false;
     }
     public void setPages(Long userId, int counter) {
-        User user = getUsersCurrentPerson(userId);
+        User user = getUsersCurrentUser(userId);
         user.setPages(counter);
         log.info("Set to user: " + userId + " pages - " + counter);
     }
 
     /**
-     * Получение общего количества страниц в поиске/любимцах
-     *
-     * @param userId Id пользака из телеграмма
-     * @return Кол-во страниц
+     * Получение общего количества страниц
      */
     public int getPages(Long userId) {
-        User user = getUsersCurrentPerson(userId);
+        User user = getUsersCurrentUser(userId);
         return user.getPages();
     }
 
     /**
-     * Установление текущего id профиля в поиске
-     *
-     * @param userId        Id пользака из телеграмма
-     * @param likedPersonId Id профиля
+     * Установление текущего id
      */
     public void setLikedPersonId(Long userId, Long likedPersonId) {
-        User user = getUsersCurrentPerson(userId);
-        user.setLikedPersonId(likedPersonId);
+        User user = getUsersCurrentUser(userId);
+        user.setLikedUserId(likedPersonId);
         log.info("Set to user: " + userId + " likedPersonId - " + likedPersonId);
     }
 
     /**
-     * Получение текущего id профиля в поиске
-     *
-     * @param userId Id пользака из телеграмма
-     * @return Id профиля
+     * Получение текущего id
      */
     public Long getLikedPersonId(Long userId) {
-        User user = getUsersCurrentPerson(userId);
-        return user.getLikedPersonId();
+        User user = getUsersCurrentUser(userId);
+        return user.getLikedUserId();
     }
 
     /**
-     * Сброс общего количества страниц в поиске/любимцах
-     *
-     * @param userId Id пользака из телеграмма
+     * Сброс страниц
      */
     public void resetPagesCounter(Long userId) {
-        User user = getUsersCurrentPerson(userId);
+        User user = getUsersCurrentUser(userId);
         user.setPageCounter(1);
     }
 
     /**
      * Увелечение на 1 номера страницы на которой находимся
-     *
-     * @param userId Id пользака из телеграмма
-     * @return Номер страницы
      */
     public int incrementPagesCounter(Long userId) {
-        User user = getUsersCurrentPerson(userId);
+        User user = getUsersCurrentUser(userId);
         int counter = user.getPageCounter();
         int pages = user.getPages();
         if (counter < pages) {
@@ -192,12 +178,9 @@ public class UserCache {
 
     /**
      * Уменьшение на 1 номера страницы на которой находимся
-     *
-     * @param userId Id пользака из телеграмма
-     * @return Номер страницы
      */
     public int minusPagesCounter(Long userId) {
-        User user = getUsersCurrentPerson(userId);
+        User user = getUsersCurrentUser(userId);
         int counter = user.getPageCounter();
         int pages = user.getPages();
         if (counter == 1) {

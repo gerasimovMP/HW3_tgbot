@@ -25,7 +25,7 @@ public class HandlerCallback {
     private UserService userService;
 
     @Autowired
-    private SenderPhoto senderPhoto;
+    private GetProfileService profileService;
     @Autowired
     private SendMessages sendMessages;
 
@@ -74,7 +74,7 @@ public class HandlerCallback {
                 setPagesCache(userId, pagesCounter);
                 if (pagesCounter > 0) {
                     UserDto userDto = userService.getFavoritePerson(userId, 1);
-                    return senderPhoto.getProfile(message, userDto);
+                    return profileService.getProfile(message, userDto);
                 }
             }
         }
@@ -86,15 +86,15 @@ public class HandlerCallback {
         setPagesCache(userId, userService.getCountSuitablePerson(userId));
         UserDto userDto = userService.getSuitablePerson(userId, 1);
         userCache.setLikedPersonId(userId, userDto.getUserId());
-        return senderPhoto.getProfile(message, userDto);
+        return profileService.getProfile(message, userDto);
     }
 
     private SendPhoto setTypeSearch(Message message, String typeSearch, Long userId) throws URISyntaxException, IOException {
         userCache.setNewState(userId, BotState.PROFILE_DONE);
         userCache.setTypeSearch(userId, Gender.valueOf(typeSearch));
-        userService.createPerson(userCache.getUsersCurrentPerson(userId));
+        userService.createPerson(userCache.getUsersCurrentUser(userId));
         String text = userCache.getNameAndDescription(userId);
-        return senderPhoto.getMyProfile(message, text);
+        return profileService.getMyProfile(message, text);
     }
 
     private void setPagesCache(Long userId, int pagesCounter) {

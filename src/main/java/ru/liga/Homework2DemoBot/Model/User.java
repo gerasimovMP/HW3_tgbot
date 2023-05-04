@@ -21,6 +21,6 @@ public class User {
     private BotState botState;
     private int pageCounter;
     private int pages;
-    private Long likedPersonId;
+    private Long likedUserId;
 
 }

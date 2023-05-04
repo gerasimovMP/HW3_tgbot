@@ -11,5 +11,5 @@ import lombok.Setter;
 @AllArgsConstructor
 public class LikedDto {
     private Long mainId;
-    private Long likedId;
+    private Long likedUserId;
 }
