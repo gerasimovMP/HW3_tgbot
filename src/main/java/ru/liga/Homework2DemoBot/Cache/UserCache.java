@@ -18,6 +18,7 @@ import java.util.List;
 @Component
 public class UserCache {
 
+    //TODO разбить на несколько
     private List<User> users = new ArrayList<>();
 
 

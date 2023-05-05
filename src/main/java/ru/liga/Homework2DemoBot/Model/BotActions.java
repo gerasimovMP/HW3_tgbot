@@ -1,6 +1,8 @@
 package ru.liga.Homework2DemoBot.Model;
 
 public enum BotActions {
+
+    //TODO привести к нормальному виду
     MALE("Male"),
     FEMALE("Female"),
     ALL("all"),

@@ -3,7 +3,6 @@ package ru.liga.Homework2DemoBot.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.Message;
@@ -20,7 +19,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 @Component
-public class PhotoSender {
+public class BuildProfile {
 
     @Autowired
     private ButtonsMaker buttonsMaker;

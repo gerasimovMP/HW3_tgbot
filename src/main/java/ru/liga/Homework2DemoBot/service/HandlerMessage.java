@@ -26,7 +26,7 @@ public class HandlerMessage {
     @Autowired
     private UserService userService;
     @Autowired
-    private PhotoSender profileService;
+    private BuildProfile buildProfile;
 
     public SendMessage handleSendMessage(Update update) throws  URISyntaxException {
         String messageText = update.getMessage().getText();
@@ -61,7 +61,7 @@ public class HandlerMessage {
             UserDto user = userService.getPerson(userId);
             if (user != null) {
                 userCache.setUserCache(userId, user);
-                return profileService.getMyProfile(message, user.getName() + " " + user.getDescription());
+                return buildProfile.getMyProfile(message, user.getName() + " " + user.getDescription());
             }
         }
 
@@ -109,24 +109,24 @@ public class HandlerMessage {
     private SendPhoto getMenuAndProfileWithDescr(Message message, Long userId) throws IOException, URISyntaxException {
         userCache.setNewState(userId, BotState.PROFILE_DONE);
         userCache.resetPagesCounter(userId);
-        return profileService.getMyProfile(message, userCache.getNameAndDescription(userId));
+        return buildProfile.getMyProfile(message, userCache.getNameAndDescription(userId));
     }
 
     private SendPhoto getNextLikedProfile(Message message, Long userId) throws URISyntaxException, IOException {
         int pagesCounter = userCache.incrementPagesCounter(userId);
         UserDto personDTO = userService.getSuitablePerson(userId, pagesCounter);
         userCache.setLikedPersonId(userId, personDTO.getUserId());
-        return profileService.getProfile(message, personDTO);
+        return buildProfile.getProfile(message, personDTO);
     }
 
     private SendPhoto getNextFavoriteProfile(Message message, Long userId) throws URISyntaxException, IOException {
         int pagesCounter = userCache.incrementPagesCounter(userId);
-        return profileService.getProfile(message, userService.getFavoritePerson(userId, pagesCounter));
+        return buildProfile.getProfile(message, userService.getFavoritePerson(userId, pagesCounter));
     }
 
     private SendPhoto getPrevFavoriteProfile(Message message, Long userId) throws URISyntaxException, IOException {
         int pagesCounter = userCache.minusPagesCounter(userId);
-        return profileService.getProfile(message, userService.getFavoritePerson(userId, pagesCounter));
+        return buildProfile.getProfile(message, userService.getFavoritePerson(userId, pagesCounter));
     }
 
     private SendMessage getSendMessageQuestionTypeSearch(String messageText, Message message, Long userId, String reg)  {

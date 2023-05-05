@@ -19,6 +19,9 @@ public class UserDto {
     private String description;
     private String searchGender;
 
+    //TODO подправить ДТО под бек
+
+
     private String stageOfQuestionnaire;
 
 

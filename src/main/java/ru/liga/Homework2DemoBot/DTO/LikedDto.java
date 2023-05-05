@@ -10,6 +10,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LikedDto {
+
+    //TODO подправить ДТО под бек
     private Long mainId;
     private Long likedUserId;
 }
