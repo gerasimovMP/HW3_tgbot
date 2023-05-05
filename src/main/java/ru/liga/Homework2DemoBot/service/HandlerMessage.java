@@ -26,7 +26,7 @@ public class HandlerMessage {
     @Autowired
     private UserService userService;
     @Autowired
-    private GetProfileService profileService;
+    private PhotoSender profileService;
 
     public SendMessage handleSendMessage(Update update) throws  URISyntaxException {
         String messageText = update.getMessage().getText();

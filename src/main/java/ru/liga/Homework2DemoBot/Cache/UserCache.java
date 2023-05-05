@@ -111,7 +111,9 @@ public class UserCache {
         return User.builder().userId(userId).build();
     }
 
-
+    /**
+     * Проверка на то, есть ли юзер в кеше
+     */
     public boolean containsKey(Long userId) {
         for (User user : users) {
             if (user.getUserId() == userId ) {

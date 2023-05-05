@@ -12,7 +12,6 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMar
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import ru.liga.Homework2DemoBot.DTO.UserDto;
 import ru.liga.Homework2DemoBot.Model.BotActions;
-import ru.liga.Homework2DemoBot.Model.OldText;
 
 
 import java.io.File;
@@ -21,7 +20,7 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 @Component
-public class GetProfileService {
+public class PhotoSender {
 
     @Autowired
     private ButtonsMaker buttonsMaker;

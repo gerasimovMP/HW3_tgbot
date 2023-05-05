@@ -25,7 +25,7 @@ public class HandlerCallback {
     private UserService userService;
 
     @Autowired
-    private GetProfileService profileService;
+    private PhotoSender profileService;
     @Autowired
     private SendMessages sendMessages;
 
